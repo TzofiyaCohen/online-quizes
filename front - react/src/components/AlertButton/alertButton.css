@@ -1,0 +1,152 @@
+
+
+.wrapperAlertButton{
+    z-index: 5;
+    position: absolute; 
+    margin-top: 80vh;
+    margin-left: 78vw; 
+    height: 56px;
+    width: 56px;
+}
+
+.buttonAlertIcon{
+    display: block;
+    fill: #c90a0a;
+    font-size: x-large;
+    margin: auto;
+    -webkit-transition: all .3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all .3s cubic-bezier(.4,0,.2,1);
+}
+.buttonAlert{
+    width: 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    left: 0;
+    margin: 8px 0 8px 8px;
+    padding: 10px 0 10px 10px;
+    top: 0;
+    width: -webkit-calc(56px - 8px - 10px);
+    width: calc(56px - 8px - 10px);
+    /* border-end-start-radius: 50%;
+    border-start-start-radius: 50%;
+    box-shadow: 0 1px 1px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    background-color: #f8f9fa; */
+}
+
+.wrapperC{
+    border-end-start-radius: 50%;
+    border-start-start-radius: 50%;
+    box-shadow: 0 1px 1px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    background-color: #f8f9fa;
+}
+
+/* @media  (min-width:414px)and(max-width:896px)  */
+@media only screen 
+ and (max-width: 700px) 
+ and (min-width: 400px) 
+{
+    .wrapperAlertButton{
+    
+        position: absolute; 
+        margin-top: 80vh;
+        margin-left: 88vw;
+        height: 56px;
+        width: 56px;
+    }
+
+}
+
+@media only screen 
+ and (max-width: 670px) 
+ and (min-width: 374px) 
+{
+    .wrapperAlertButton{
+    
+        position: absolute; 
+        margin-top: 80vh;
+        margin-left: 85vw;
+        height: 56px;
+        width: 56px;
+    }
+
+}
+
+@media only screen 
+ and (max-width: 1281px) 
+ and (min-width: 799px) 
+{
+    .wrapperAlertButton{
+    
+        position: absolute; 
+        margin-top: 80vh;
+        margin-left: 77vw;
+        height: 56px;
+        width: 56px;
+    }
+
+}
+
+@media only screen 
+ and (max-width: 896px) 
+ and (min-width: 410px) 
+{
+    .wrapperAlertButton{
+    
+        position: absolute; 
+        margin-top: 80vh;
+        margin-left: 86vw;
+        height: 56px;
+        width: 56px;
+    }
+
+}
+
+@media only screen 
+ and (max-width: 1025px) 
+ and (min-width: 799px) 
+{
+    .wrapperAlertButton{
+    
+        position: absolute; 
+        margin-top: 80vh;
+        margin-left: 95vw;
+        height: 56px;
+        width: 56px;
+    }
+
+}
+
+@media only screen 
+ and (max-width: 739px) 
+ and (min-width: 359px) 
+{
+    .wrapperAlertButton{
+    
+        position: absolute; 
+        margin-top: 80vh;
+        margin-left: 84vw;
+        height: 56px;
+        width: 56px;
+    }
+
+}
+
+@media only screen 
+ and (max-width: 847px) 
+ and (min-width: 411px) 
+{
+    .wrapperAlertButton{
+    
+        position: absolute; 
+        margin-top: 80vh;
+        margin-left: 86vw;
+        height: 56px;
+        width: 56px;
+    }
+
+}
+
+
+
+
+

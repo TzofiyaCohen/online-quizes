@@ -1,0 +1,446 @@
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.input_style {
+    border          : none;
+    /* width        : 90%; */
+    background-color: inherit;
+}
+.popUpUpdateTest{
+    align-items: flex-end;
+    margin-left: 0.5rem;
+}
+.popUpUpdateTest .modal-header{
+    border: none;
+}
+
+.ModalpopUpUpdateTest{
+    min-height: calc(100% - 2rem) !important;
+    justify-content: flex-end !important;
+    float: left;
+    align-items: flex-end !important;
+}
+
+.popUpUpdateTest .modal-header{
+    text-align: center;
+    border-radius: 14px;
+    border-bottom : none;
+    border-top    : solid !important;
+    border-color  : green !important;
+}
+.popUpUpdateTest .modal-content{
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.input_style:focus,
+textarea:focus {
+    /* border    : none; */
+    box-shadow: none;
+}
+
+#editDiv {
+    outline: none;
+}
+
+.description {
+    /* display                 : inline-block;
+    margin-top              : 10px; */
+    width          : fit-content;
+    height         : fit-content;
+    justify-content: space-between;
+    padding        : 10px;
+
+}
+
+.input_group {
+    flex-wrap: nowrap;
+    position : unset;
+}
+
+.tooltip2 {
+    position     : relative;
+    display      : inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip2 .tooltiptext {
+    visibility      : hidden;
+    width           : 90px;
+    background-color: #8181A5;
+    color           : #fff;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 5px 0;
+
+    /* Position the tooltip */
+    position   : absolute;
+    z-index    : 1;
+    bottom     : 100%;
+    left       : 50%;
+    margin-left: -60px;
+}
+
+.tooltip2:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.tooltip3 {
+    position           : relative;
+    /* display         : inline-block; */
+    /* border-bottom   : 1px dotted black; */
+}
+
+.label-contact {
+    border       : solid 0.5px #707070 !important;
+    /* opacity   : 100%; */
+    border-radius: 8px;
+    width        : 11%;
+    /* height    : 40%; */
+    margin-right : 1vh;
+}
+
+.css-4ljt47-MenuList::-webkit-scrollbar {
+    width: 0.3em;
+}
+
+.css-4ljt47-MenuList::-webkit-scrollbar-track {
+    /* background   : rgb(201, 196, 196) 0% 0% no-repeat padding-box; */
+    background   : #F5F5FA;
+    border-radius: 10px;
+    opacity      : 0.15;
+}
+
+.css-4ljt47-MenuList::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--colorStyle));
+    /* background-color: #56D4DE; */
+
+}
+
+.tooltip3 .tooltiptext {
+    visibility      : hidden;
+    width           : fit-content;
+    background-color: #8181A5;
+    color           : #fff;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 5px 0;
+
+    /* Position the tooltip */
+    position   : absolute;
+    z-index    : 1;
+    bottom     : 100%;
+    left       : 50%;
+    margin-left: -60px;
+}
+
+.tooltip3:hover .tooltiptext {
+    visibility: visible;
+}
+
+.popUpFinishTest {
+    width    : 26%;
+    position : fixed;
+    /* top   : 50% !important; */
+    left     : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popUpFinishTest .modal-content {
+    height    : 8.2vh;
+    margin-top: 46vh !important;
+    width     : 40vh;
+}
+
+.popUpFinishTest .modal-header {
+    border-bottom : none;
+    display       : flex;
+    flex-direction: column;
+    height        : inherit;
+    text-align    : center;
+    align-items   : center !important;
+    border-top    : double !important;
+    border-color  : green !important;
+}
+
+.modalPDF {
+    width      : 40% !important;
+    margin-left: 30%;
+    display    : block;
+}
+
+.targetAudience {
+    position  : absolute;
+    margin-top: 3rem;
+    z-index   : 999 !important;
+}
+
+.span-div-quest {
+    top        : -6%;
+    position   : absolute;
+    left       : 1px;
+    font-size  : 1.1vw;
+    margin-left: 1rem;
+    text-align : left;
+}
+
+input[type=number].no-spinner::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin            : 0;
+}
+
+.no-spinner {
+    width           : 14%;
+    padding-left    : 8%;
+    color           : white;
+    background-color: inherit;
+    border          : none;
+    padding-left    : 0;
+}
+
+/*     height: 1vh;
+    width: 1.5rem;
+    margin: 0px;
+    position: relative;
+    background: rgb(136, 136, 136);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background 0.25s ease 0s;
+    top: 0.1vh; */
+
+
+.switchTimer .react-switch-bg {
+    height: 1em !important;
+    width : 2.3em !important;
+    top   : 0.43vh;
+}
+
+.switchTimer .react-switch-handle {
+    height: 1em !important;
+    width : 1em !important;
+    top   : 0.4vh !important;
+}
+
+@media (max-width:500px) {
+    .switchTimer .react-switch-handle {
+        top: 0.4vh !important;
+    }
+
+    .popUpFinishTest .modal-content {
+        height    : 4vh !important;
+        margin-top: 49vh !important;
+        width     : initial;
+    }
+
+    .popUpFinishTestP {
+        margin-top : -1.7vh !important;
+        margin-left: 2vh !important;
+        font-size  : 1.3vh;
+    }
+
+    .popUpFinishTestSvg {
+        width       : 9% !important;
+        margin-right: 19vh !important;
+        margin-top  : -3.8vh !important;
+        z-index     : 5;
+    }
+
+    .popUpFinishTest {
+        width: 47% !important;
+        top  : 95% !important;
+        left : 25% !important;
+    }
+}
+
+@media (min-width:300px) {
+    .switchTimer .react-switch-handle {
+        top: 0.4vh !important;
+    }
+
+    .popUpFinishTest .modal-content {
+        height    : 4vh !important;
+        margin-top: 49vh !important;
+        width     : initial;
+    }
+
+    .popUpFinishTestP {
+        margin-top : -0.6rem !important;
+        margin-left: 2vh !important;
+        font-size  : 1.3vh;
+    }
+
+    .popUpFinishTestSvg {
+        width       : 9% !important;
+        margin-right: 19vh !important;
+        margin-top  : -3.8vh !important;
+        z-index     : 5;
+    }
+
+    .popUpFinishTest {
+        width: 21vh !important;
+        top  : 95% !important;
+        left : 12vh !important;
+    }
+}
+
+
+
+@media (max-width:576px) {
+    .switchTimer .react-switch-handle {
+        top: 0.4vh !important;
+    }
+}
+
+@media (min-width: 401px) {
+    .switchTimer .react-switch-handle {
+        top: 0.4vh !important;
+    }
+
+    .popUpFinishTest .modal-content {
+        height    : 4vh !important;
+        margin-top: 49vh !important;
+        width     : initial;
+    }
+
+    .popUpFinishTestP {
+        margin-top : -1.4vh !important;
+        margin-left: 2vh !important;
+        font-size  : 1.3vh;
+    }
+
+    .popUpFinishTestSvg {
+        width       : 9% !important;
+        margin-right: 19vh !important;
+        margin-top  : -3.8vh !important;
+        z-index     : 5;
+    }
+
+    .popUpFinishTest {
+        width: 38% !important;
+        top  : 95% !important;
+        left : 20% !important;
+    }
+
+}
+
+@media (min-width:575px) {
+    .switchTimer .react-switch-handle {
+        top: 0.4vh !important;
+    }
+
+    .popUpFinishTest .modal-content {
+        height    : 4vh !important;
+        margin-top: 49vh !important;
+        width     : initial;
+    }
+
+    .popUpFinishTestP {
+        margin-top : -1.7vh !important;
+        margin-left: 2vh !important;
+        font-size  : 1.3vh;
+    }
+
+    .popUpFinishTestSvg {
+        width       : 9% !important;
+        margin-right: 19vh !important;
+        margin-top  : -3.8vh !important;
+        z-index     : 5;
+    }
+
+    .popUpFinishTest {
+        width: 36% !important;
+        top  : 95% !important;
+        left : 18% !important;
+    }
+}
+
+@media (min-width:768px) {
+    .switchTimer .react-switch-handle {
+        top: 0.4vh !important;
+    }
+
+    .popUpFinishTest .modal-content {
+        height    : 5vh !important;
+        margin-top: 49vh !important;
+        width     : initial;
+    }
+
+    .popUpFinishTestP {
+        margin-top : -0.58vh !important;
+        margin-left: 2vh !important;
+        font-size  : 1.7vh;
+    }
+
+    .popUpFinishTestSvg {
+        width       : 11% !important;
+        margin-right: 27vh !important;
+        margin-top  : -5vh !important;
+        z-index     : 5;
+    }
+
+    .popUpFinishTest {
+        width: 40% !important;
+        top  : 93% !important;
+        left : 22% !important;
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    .popUpFinishTest {
+        width: 46vh !important;
+        top  : 93% !important;
+        left : 26vh !important;
+    }
+
+    .popUpFinishTest .modal-content {
+        height    : 8.2vh !important;
+        margin-top: 46vh !important;
+        width     : inherit !important;
+    }
+
+    .popUpFinishTestP {
+        margin-top : -0.3rem !important;
+        margin-left: 5vh !important;
+        font-size  : 2.7vh;
+    }
+
+    .popUpFinishTestSvg {
+        width       : 10vh !important;
+        margin-right: 40vh !important;
+        margin-top  : -3em !important;
+        z-index     : 5;
+    }
+
+}
+
+.input_newContact {
+    width  : 35vh !important;
+    height : 6vh !important;
+    z-index: 2;
+}
+
+.videoPlayer .div {
+    width : 100% !important;
+    height: 100% !important;
+}
+
+/* .test-name:focus{  
+    box-shadow: none;
+    border: 2px solid rgb(26,115,232);
+    border-radius: 4px !important;
+  } */
+/*
+   color: var(--drk-blue);
+    border-color: var(--drk-blue); 
+   */
+/* 
+   .textCatch{
+       background-color: rgb(89, 80, 206);
+   } */

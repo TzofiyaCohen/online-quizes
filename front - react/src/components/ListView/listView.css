@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+#icon {
+    /* color: #B1B1B1 */
+    color  : grey;
+    opacity: 0.5;
+}
+
+.tooltip {
+    /* position     : relative; */
+    display         : inline-block;
+    /* border-bottom: 1px dotted black; */
+}
+
+.list_view_test td,
+.list_view_test a {
+    text-align    : left;
+    font-size     : 0.8rem;
+    letter-spacing: 0px;
+    color         : black;
+    opacity       : 1;
+    font-family   : 'Roboto', sans-serif;
+}
+
+.list_view_test a,
+.list_view_test a:hover {
+    color      : #05131D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.wrap-icon-kind {
+
+    position: relative;
+}
+
+.toltip-kind {
+    display  : none;
+    position : absolute;
+    top      : -30% !important;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.wrap-icon-kind:hover .toltip-kind {
+    display: block;
+}
+
+.tr_side_edit_delete_copy {
+    /* width : 6rem; */
+    width : 18vh;
+    height: fit-content;
+
+}
+
+#td_check_test .lableInput {
+    margin-bottom: 0px;
+}
+.icons-of-test:hover{
+    color: turquoise !important;
+}
+
+.td_side_edit_delete_copy #icon {
+    color    : rgb(82, 80, 80);
+    height   : 1rem;
+    /* width : 0.86rem; */
+
+
+}
+
+.td_side_edit_delete_copy #icon:hover {
+    color    : #56D4DE;
+    /* color :rgb(var(--colorStyle)) ; */
+    transform: scale(1.3);
+}
+
+.td_side_edit_delete_copy #icon:hover {
+    cursor: pointer !important;
+}
+
+.lableInput input {
+    display: none;
+}
+
+[type=checkbox]:checked+span:before {
+    content    : '\2714';
+    position   : absolute;
+    top        : -0.6rem;
+    left       : 0;
+    font-size  : larger;
+    color      : rgb(86, 212, 222);
+    /* color   : rgb(var(--colorStyle)); */
+    font-weight: 100;
+
+}
+
+label span {
+    height       : 0.8rem;
+    width        : 0.8rem;
+    border       : 1.5px solid #05131D;
+    border-radius: 4px;
+    display      : inline-block;
+    position     : relative;
+
+
+}
+
+.tooltip .tooltiptext {
+    visibility      : hidden;
+    width           : 120px;
+    background-color: black;
+    color           : #fff;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 5px 0;
+
+    /* Position the tooltip */
+    position   : absolute;
+    z-index    : 1;
+    bottom     : 100%;
+    left       : 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.custom-ui {
+    position        : absolute;
+    top             : 50%;
+    left            : 50%;
+    -ms-transform   : translate(-50%, -50%);
+    transform       : translate(-50%, -50%);
+    text-align      : center;
+    background-color: white;
+
+    border-top            : solid 9px;
+    border-image-slice    : 1;
+    border-width          : 7px;
+    border-color          : #56D4DE;
+    /* border-image-source:linear-gradient(270deg, #F10808 20%, #0D3754 100%) ; */
+    box-sizing            : border-box;
+    box-shadow            : 0px 3px 6px #00000029;
+    border-radius         : 8px !important;
+    width                 : 35%;
+
+    /* animation: cc 0.3s forwards;  */
+
+}
+
+.custom-ui p {
+    margin-top   : 5%;
+    margin-bottom: 0;
+    font-size    : 1.4rem;
+    font-family  : 'Roboto', sans-serif;
+}
+
+.custom-ui button {
+    margin       : 6%;
+    border-radius: 2px;
+    border       : none;
+    padding      : 2% 6%;
+    font-family  : 'Roboto', sans-serif;
+}
+
+/* .custom-ui button.cancel {
+    background-color: #B50E0E;
+    color           : white;
+}
+
+.custom-ui button.delete,
+.custom-ui button.restore {
+    border          : solid 1px #7B819A;
+ */
+.custom-ui button.cancel {
+    border          : solid 1px #7B819A;
+    background-color: white;
+    color           : #7B819A;
+}
+
+.custom-ui button.delete,
+.custom-ui button.restore {
+    background-color: #56D4DE;
+    color           : white;
+}
+
+.xicon {
+    color   : #7B819A;
+    /* float: left; */
+    margin  : 1%;
+    position: absolute;
+    left    : 1%;
+    top     : 1%;
+}
+
+.xicon:hover {
+    cursor: pointer !important;
+}
+
+.back-box {
+    width           : 100%;
+    position        : absolute;
+    top             : 0;
+    height          : 100%;
+    background-color: gray;
+    opacity         : 0.98;
+    z-index         : 10000;
+}
+
+@keyframes cc {
+    0% {
+        width : 0%;
+        height: 0%;
+
+    }
+
+    100% {
+        width : auto;
+        height: auto;
+    }
+}

@@ -1,0 +1,569 @@
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.input_style {
+    border          : none;
+    /* width        : 90%; */
+    background-color: inherit;
+}
+
+.input_style:focus,
+textarea:focus {
+    /* border    : none; */
+    box-shadow: none;
+}
+
+#editDiv {
+    outline: none;
+}
+
+.description {
+    /* display                 : inline-block;
+    margin-top              : 10px; */
+    width          : fit-content;
+    height         : fit-content;
+    justify-content: space-between;
+    padding        : 10px;
+
+}
+
+.input_group {
+    flex-wrap: nowrap;
+    position : unset;
+}
+
+.tooltip2 {
+    position     : absolute;
+    display      : inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip2 .tooltiptext {
+    visibility      : hidden;
+    width           : 90px;
+    background-color: #8181A5;
+    color           : #fff;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 5px 0;
+
+    /* Position the tooltip */
+    position   : absolute;
+    z-index    : 1;
+    bottom     : 100%;
+    left       : 50%;
+    margin-left: -60px;
+}
+
+.tooltip2:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.tooltip3 {
+    position           : relative;
+    /* display         : inline-block; */
+    /* border-bottom   : 1px dotted black; */
+}
+
+.tooltip3 .tooltiptext {
+    visibility      : hidden;
+    width           : fit-content;
+    background-color: #8181A5;
+    color           : #fff;
+    text-align      : center;
+    border-radius   : 6px;
+    padding         : 5px 0;
+
+    /* Position the tooltip */
+    position   : absolute;
+    z-index    : 1;
+    bottom     : 100%;
+    left       : 50%;
+    margin-left: -60px;
+}
+
+.tooltip3:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* ----------------------modalAnonymous------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#anonymousHeader.modal-dialog,
+#pdfHeader.modal-dialog {
+    width : 75% !important;
+    margin: auto;
+}
+
+#popUpFinishAnswerTest {
+    width: 30%;
+
+}
+
+#popUpFinishAnswerTest .modal-content {
+    height: 50vh !important;
+}
+
+/* #anonymousHeader.modal-dialog */
+/* div.fade.modal.show > #anonymousHeader */
+
+/* div.fade.modal.show{
+    background-color:white !important;
+}  */
+/* .modal-content {
+    box-shadow   : 0px 3px 18px rgb(0 0 0 / 13%);
+    border       : none;
+    border-radius: 7px;
+    height       : 98vh;
+    margin-top   : 2vh !important;
+} */
+#anonymousHeader.modal-dialog, #pdfHeader.modal-dialog{
+    width: 100% !important;
+}
+
+.anonymousHeader,
+.pdfHeader {
+    box-shadow: inset 0 0 0 1000px rgba(30, 45, 59, 0.70);
+
+}
+
+.anonymousHeader {
+    height             : 23vh;
+    background-size    : cover;
+    background-position: center;
+    border-bottom      : solid 10px #56D4DE;
+    border-radius      : 7px;
+    position           : relative;
+}
+
+.ansTestInstraction{
+    background-size    : cover;
+    background-position: center;
+    border-bottom      : solid 8px #56D4DE;
+    /* border-radius      : 7px; */
+    position           : relative;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgb(30 45 59 / 70%);
+    height: 20vh;
+}
+
+.modalInstraction .modal-content{
+    height: 100%;
+}
+
+.modalInstraction{
+    max-width: 100% !important;
+    max-height: 100%;
+    height: 100%;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.pdfHeader {
+    height             : 23vh;
+    background-size    : cover;
+    background-position: center;
+    border-bottom      : solid 8px #56D4DE;
+    /* border-radius      : 7px; */
+    position           : relative;
+}
+/* 
+.modal-title {
+    margin   : 0;
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.modal-test-title {
+    font-size: 2rem;
+}
+
+.modal-test-title,
+.modal-teacher-title {
+    font-family: 'Roboto', sans-serif;
+    color      : white;
+    text-align : center;
+
+}
+
+.modal-teacher-title {
+    font-size                : 1.6rem;
+    text-decoration          : underline #56D4DE solid;
+    text-decoration-thickness: 3px;
+    text-underline-offset    : 4px;
+}
+
+.instructions-title {
+    color     : white;
+    font-size : 1.8rem;
+    text-align: center;
+}
+
+.instructions-title-div {
+    /* border-bottom            : 10px solid; */
+    border-image-slice       : 1;
+    border-width             : 3px;
+    border-image-source      : linear-gradient(90deg, transparent 20%, #56D4DE 20%, #56D4DE 80%, transparent 80%);
+    box-sizing               : border-box;
+    text-decoration-thickness: 7%;
+    text-underline-offset    : 1vh;
+}
+
+.body-p-modal {
+    color      : #05131D;
+    font-family: 'Roboto', sans-serif;
+    text-align : center;
+    font-size  : 1.5rem;
+    margin     : 0px !important;
+}
+
+.choose-connect {
+    width : 45% !important;
+    margin: auto;
+}
+
+.choose-connect .col {
+    border          : solid 1px #C90A0A;
+    /* border       : solid 1px rgb(var(--colorStyle)); */
+    border-radius   : 9px;
+    height          : 25vh;
+    background-color: inherit;
+}
+
+.choose-connect .col:hover {
+    border-width: 2px;
+}
+
+.choose-connect #icon {
+    color : rgb(5, 19, 29, 0.62);
+    width : 50%;
+    height: 50%;
+
+}
+
+.choose-connect button {
+    position: relative;
+
+}
+
+.choose-connect button div {
+    width    : 100%;
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.instructions-div-body {
+    width : 60%;
+    margin: auto;
+
+}
+
+.instructions-div-body ul {
+    list-style  : none;
+    padding-left: 0px !important;
+}
+
+.instructions-div-body ul li * {
+    display: inline;
+}
+
+.instructions-div-body ul li #icon {
+    color   : #56D4DE !important;
+    /* color: rgb(var(--colorStyle)) !important; */
+    width   : 10% !important;
+    height  : 4vh !important;
+    float   : left;
+
+}
+
+.btn-start,
+.btn-start:hover,
+.btn-start:active,
+.btn-start:focus {
+    background-color: inherit !important;
+    color           : #05131D !important;
+    /* border          : solid 1px #C90A0A; */
+    border          : solid 1px #56D4DE;
+    /* border       : solid 1px rgb(var(--colorStyle)); */
+    border-radius   : 8px;
+    display         : block;
+    margin          : auto;
+}
+
+.btn-start:hover {
+    /* border: solid 2px rgb(var(--colorStyle)) !important; */
+    border: solid 2px #56D4DE !important;
+}
+
+@media (max-width:1000px) {
+    .instructions-div-body {
+        width: 70%;
+
+    }
+}
+
+@media (max-width:800px) {
+    /* .modal-dialog {
+        width: 90% !important;
+    } */
+
+    .anonymousHeader {
+        height: 24vh;
+    }
+
+    .pdfHeader {
+        height: 20vh;
+    }
+
+    .modal-test-title,
+    .modal-teacher-title {
+
+        font-size  : 1.6rem;
+        line-height: 4.7vh;
+    }
+
+    .body-p-modal {
+        font-size: 1.3rem;
+    }
+
+    .choose-connect {
+        width: 55% !important;
+
+    }
+
+    .instructions-div-body {
+        width: 80%;
+
+    }
+
+}
+
+@media(max-width: 768px) {
+    .anonymousHeader {
+        height: 22vh;
+    }
+
+    .pdfHeader {
+        height: 22vh;
+    }
+}
+
+@media (max-width: 575px) {
+    .anonymousHeader {
+        height: 18vh;
+    }
+
+    .pdfHeader {
+        height: 18vh;
+    }
+
+    .modal-test-title,
+    .modal-teacher-title {
+
+        font-size  : 1rem;
+        line-height: 3vh;
+    }
+
+    .instructions-title {
+
+        font-size: 1.2rem;
+
+    }
+
+    .choose-connect {
+        width: 40% !important;
+
+    }
+}
+
+@media (max-width:375px) {
+    .anonymousHeader {
+        height: 14vh;
+    }
+
+    .pdfHeader {
+        height: 14vh;
+    }
+
+    .body-p-modal {
+        font-size: 1.1rem;
+    }
+
+    .instructions-title {
+
+        font-size: 1rem;
+
+    }
+
+    .choose-connect {
+        width: 45% !important;
+
+    }
+
+    .instructions-div-body {
+        width: 90%;
+
+    }
+
+
+}
+
+@media (max-width:300px) {
+
+    .choose-connect {
+        width: 50% !important;
+    }
+
+    .choose-connect .col {
+        height: 20vh;
+    }
+}
+
+@media(min-width:1060px) {
+    .choose-connect {
+        width: 370px !important;
+    }
+
+    .choose-connect .col {
+        height: 27vh;
+    }
+}
+
+@media (min-width: 576px) {
+    /* .modal-dialog {
+        max-width: none !important;
+
+    } */
+}
+
+.popUpFinishAnswerTest {
+    width: 30%;
+
+}
+
+/* ----------------------modalPDF------------------------ */
+
+.finishTest {
+    padding      : 2%;
+    position     : absolute;
+    /* top       : 10%; */
+    right        : 50%;
+    transform    : translate(50%, 50%);
+    color        : #3D4853;
+    text-align   : center;
+    font         : normal normal bold 55px/64px Roboto;
+
+}
+
+.modal-user {
+    /* height          : 65% !important; */
+    height          : fit-content;
+    width           : 20rem !important;
+    position        : fixed;
+    top             : 50% !important;
+    left            : 58%;
+    transform       : translate(-50%, -50%);
+    background-color: transparent !important;
+    overflow-y      : hidden !important;
+}
+
+.modal-userf {
+    background-color: rgb(15, 3, 3) !important;
+    opacity         : 0.5 !important;
+}
+
+/* @media (max-width: 300px) {
+    .modal-user {
+        width:80% !important;
+    }
+    .modal-content{
+        width:80% !important;
+    }
+} */
+
+
+/* @media (max-width: 1024px) {
+    .modal-user {
+        width:80% !important;
+    }
+    .modal-content{
+        margin-top: 40% !important;
+        width:90% !important;
+    left: 10%;
+    height: 95%  !important;
+    }
+} */
+
+.btn-start-color,
+.btn-start-color:hover,
+.btn-start-color:active,
+.btn-start-color:focus {
+    color           : #fff !important;
+    background-color: #56D4DE !important;
+    border          : solid 1px #56D4DE;
+    border-radius   : 8px;
+    display         : block;
+    margin          : auto;
+    right           : 10%;
+    width           : 100px;
+    margin-top      : 10%;
+}
+
+.input-sort {
+    width           : 100%;
+    background-color: #F0F0F0 !important;
+    border          : none !important
+}
+
+.btnExit {
+    color              : black !important;
+    background-color   : white !important;
+    border-color       : #C90A0A !important;
+    /* margin-left     : 37%; */
+    margin-top         : 10%;
+    width              : 23%;
+    font-size          : 0.8rem;
+}
+
+.grey {
+    background-color: grey !important;
+}
+
+.displayNone {
+    display: none;
+}
+
+.iconUpload {
+    width: 16px;
+    height: 21px;
+    /* background-color: #B1B1B1 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    margin-top: -1.4em;
+    margin-left: 8em;
+    position: absolute;
+}
+
+.modalBodyDeteils {
+    margin-top : 0 !important;
+    padding-top: 0;
+}
+
+.toggleStudent {
+    margin-top: 5vh;
+    padding-top: 2em;
+    position: absolute;
+    left: 0px;
+    font-size: 1.1vw;
+    margin-left: 0.6rem;
+    text-align: left;
+    margin-top: 2%
+}

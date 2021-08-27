@@ -1,0 +1,29 @@
+
+.answers-card.student-answers,.answers-card.student-answers:hover{
+    
+    border-bottom: none !important;
+}
+.answers-card.student-answers .number-p{
+    margin-bottom: 0px !important;
+}
+
+.image-ans-answer{
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+    height: 6em;
+    display: table-column;
+    object-fit: contain;
+}
+
+.ansNum{
+    float: none;
+    margin-left: 0.5em;
+}
+.ansAna{
+    margin-left: 0 !important;
+
+}
+
+.ansStudentDiv{
+    margin-left: 1.3em;
+}

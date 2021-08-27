@@ -1,0 +1,96 @@
+.form-control {
+    background-color: inherit;
+    border          : none;
+}
+
+#wrap-div {
+    padding      : 10px;
+    margin-top   : 30px;
+    margin-right : 10px;
+    border-radius: 20px;
+}
+
+#qa_input:hover {
+    border: 1px solid #8181A5;
+}
+
+.form-control {
+    background-color: inherit;
+}
+
+.icon_mQ{
+    text-align: right;
+    position  : absolute !important;
+    right  :7.0vh;
+    color: brown;
+  z-index : 3 !important;
+}
+
+#addQuestion {
+    border          : none;
+    background-color: inherit
+}
+
+.image-ans-question{
+    object-fit: contain;
+    margin-top: 0.5vw;
+    margin-left: 1.5em;
+    margin-right: 30vw;
+    height: 7em;
+    width: auto;
+}
+
+#addQuestion:focus {
+    outline: none;
+}
+.imgStudent{
+    object-fit: contain;
+
+}
+
+@media only screen 
+ and (max-width: 500px) 
+ and (min-width: 100px) 
+{
+    .inner-question {
+        margin-left: 0 !important;
+    }
+
+    .title_span {
+        margin-left: 0;
+        font-size: 4vw;
+        padding-left: 0;
+    }
+
+    .ansStudentDiv {
+        margin-left: 0;
+    }
+
+    .image-ans-question {
+        object-fit: contain;
+        margin-top: 0.5vw;
+        margin-left: 0.3em;
+        margin-right: 30vw;
+        height: 15vw;
+        width: auto;
+    }
+
+    .image-ans-answer {
+        margin-left: 1.4rem;
+        margin-top: 0.5rem;
+        height: 12vw;
+        display: table-column;
+        object-fit: contain;
+    }
+    .ansNum {
+        font-size: 3vw;
+    }
+    .ansAna {
+        font-size: 3vw;
+    }
+    .ansRadioInput{
+        margin-top: 0.35rem;
+        height: 2.6vw;
+    }
+
+}

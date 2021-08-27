@@ -1,0 +1,41 @@
+.form-control {
+    background-color: inherit;
+    border          : none;
+}
+
+
+
+#qa_input:hover {
+    border: 1px solid #8181A5;
+}
+
+.form-control {
+    background-color: inherit;
+}
+
+#addQuestion {
+    border          : none;
+    background-color: inherit
+}
+
+#addQuestion:focus {
+    outline: none;
+}
+.div-question-view{
+    border-radius: 10px;
+}
+.div-question-view .title_span{
+   border: none;
+}
+.ans-div-view{
+    width: 90%;
+    margin: auto;
+}
+.svg-ans{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+img {
+     vertical-align: text-top !important;
+}

@@ -1,0 +1,29 @@
+#table_cb {
+    border-color : white;
+    border-radius: 4px;
+    opacity      : 1;
+    width        : 18px;
+    height       : 18px;
+    box-shadow   : none;
+}
+
+#card {
+    width           : 234px;
+    height          : 250px;
+    margin-right    : 10px;
+    margin-bottom   : 10px;
+    border          : none;
+    /* border-radius: 24px; */
+}
+
+.card-footer {
+    padding         : .75rem 1.25rem;
+    border-top      : none;
+    background-color: #FBFBFD;
+    text-align      : center;
+}
+
+#card:hover {
+    border      : solid 0.1rem;
+    border-color: #A66DFF;
+}

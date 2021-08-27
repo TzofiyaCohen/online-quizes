@@ -1,0 +1,21 @@
+.rightAnsStudent {
+    /* text-shadow:
+        1px 1px 10px green,
+        1px 1px 10px green,
+        1px 1px 10px green */
+    border-radius   : 20%;
+    border          : 1px solid lightgreen;
+    background-color: palegreen;
+    padding         : 3px;
+}
+
+.wrongAnsStudent {
+    /* text-shadow:
+        1px 1px 10px red,
+        1px 1px 10px red,
+        1px 1px 10px red */
+    border-radius   : 20%;
+    border          : 1px solid rgb(233, 123, 80);
+    background-color: lightsalmon;
+    padding         : 3px;
+}
